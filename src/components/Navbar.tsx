@@ -35,7 +35,7 @@ const NavbarLinks: NavbarLinksP[] = [
 export function SiteNavBar () {
     const [isOpen, setIsOpen] = useState(false)
     return (
-        <div className="bg-branding-blue-100 py-4 lg:py-6 fixed w-full z-40">
+        <div className="bg-branding-blue-100 py-4 lg:py-6">
                 <div className="hidden md:flex flex-row w-full items-center justify-between px-12 lg:px-20 xl:px-32">
                             <Image
                                 className="flex-shrink"
