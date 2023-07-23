@@ -1,8 +1,10 @@
 import './globals.css'
-import { Numans } from 'next/font/google'
+import { Rubik } from 'next/font/google'
 import {Metadata} from "next";
+import {SiteNavBar} from "@/components/Navbar";
+import {SiteFooter} from "@/components/Footer";
 
-const inter = Numans({ subsets: ['latin'], weight: '400'})
+const inter = Rubik({ subsets: ['latin'], weight: '400'})
 
 export const metadata:Metadata = {
   title: 'The House Of Code - Complete software engineering solution.',
@@ -20,7 +22,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className + ' bg-white'}>
+      <main className="bg-white min-h-screen text-black">
+        <SiteNavBar />
+        {children}
+        <SiteFooter />
+      </main>
+      </body>
     </html>
   )
 }
