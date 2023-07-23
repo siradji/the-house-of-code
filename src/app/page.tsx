@@ -127,7 +127,9 @@ export default function Home() {
                        <h1 className="text-branding-orange-500">Let us bring your idea to life.</h1>
                    </div>
                     <div>
-                        <p className="my-5">Harness their expertise to empower your projects and drive transformative change. The House Of Code is your trusted partner in delivering innovative</p>
+                        <p className="my-5">
+                            Ready to embark on a transformative journey of digital growth and drive transformative change? We're thrilled to connect with you. Reach out to our team today, and let's collaborate to bring your vision to life and make an impactful mark in the digital landscape.
+                        </p>
                         <ButtonLink link='/inquire' label='Schedule a call' style="w-[200px]" />
                     </div>
                 </div>

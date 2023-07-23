@@ -7,6 +7,7 @@ import {BiMenuAltRight} from "react-icons/bi";
 import {useState} from "react";
 import classNames from "classnames";
 import {MdOutlineClose} from "react-icons/md";
+import {usePathname} from "next/navigation";
 
 type NavbarLinksP = {
     link: string,
@@ -33,6 +34,7 @@ const NavbarLinks: NavbarLinksP[] = [
 
 
 export function SiteNavBar () {
+    const pathname = usePathname()
     const [isOpen, setIsOpen] = useState(false)
     return (
         <div className="bg-branding-blue-100 py-4 lg:py-6">
@@ -46,7 +48,7 @@ export function SiteNavBar () {
                             />
                         <div className="hidden md:flex bg-branding-white rounded-[20px]  bg-white  flex-row items-center space-x-3 lx:space-x-5 px-3 py-5">
                             {NavbarLinks.map(({link, label}, index) => (
-                                <LinkComponent link={link} label={label} key={link + (Math.random() * index).toLocaleString()} />
+                                <LinkComponent isActivePage={pathname.includes(link)} link={link} label={label} key={link + (Math.random() * index).toLocaleString()} />
                             ))}
                             <div>
                                 <ButtonLink link='/inquire' label="Get in touch" style="ml-4 xl:ml-12" />
@@ -71,11 +73,12 @@ export function SiteNavBar () {
 
 interface NavbarLinkProps {
     link: string,
-    label: string
+    label: string,
+    isActivePage?: boolean
 }
 function LinkComponent (props: NavbarLinkProps) {
     return (
-        <Link className="font-bold text-black capitalize font-white text-xl md:text-base" href={props.link}>{props.label}</Link>
+        <Link className={classNames("font-bold text-black capitalize  text-xl md:text-base", props.isActivePage && 'text-branding-orange-500 font-extrabold')} href={props.link}>{props.label}</Link>
     )
 }
 

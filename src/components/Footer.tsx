@@ -69,17 +69,17 @@ export function SiteFooter () {
                 <div className="flex flex-wrap w-full flex-grow">
                     <FooterLinkWrapper heading="Contact"  style="mr-3 md:mr-10">
                         {FooterSiteMap.contact.map(link => (
-                            <FooterLink label={link.label}  contact={true} key={link.link} href={link.label} />
+                            <FooterLink label={link.label}  contact={true} key={link.link} href={link.link} />
                         ))}
                     </FooterLinkWrapper >
                     <FooterLinkWrapper style="mr-3 md:mr-10" heading="Company" >
                         {FooterSiteMap.company.map(link => (
-                            <FooterLink label={link.label}  key={link.link} href={link.label} />
+                            <FooterLink label={link.label}  key={link.link} href={link.link} />
                         ))}
                     </FooterLinkWrapper>
                     <FooterLinkWrapper style="mr-3 md:mr-10" heading="Socials" >
                         {FooterSiteMap.social.map(link => (
-                            <FooterLink label={link.label} key={link.link} href={link.label} />
+                            <FooterLink label={link.label} key={link.link} href={link.link} />
                         ))}
                     </FooterLinkWrapper>
                 </div>
