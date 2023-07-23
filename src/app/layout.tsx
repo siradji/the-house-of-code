@@ -3,6 +3,7 @@ import { Rubik } from 'next/font/google'
 import {Metadata} from "next";
 import {SiteNavBar} from "@/components/Navbar";
 import {SiteFooter} from "@/components/Footer";
+import Script from "next/script";
 
 const inter = Rubik({ subsets: ['latin'], weight: '400'})
 
@@ -22,6 +23,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+    <Script async={true} src="https://www.googletagmanager.com/gtag/js?id=G-20WGJH9V9L">
+        <Script>
+            {` window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-20WGJH9V9L');`}
+        </Script>
+    </Script>
       <body className={inter.className + ' bg-white'}>
       <main className="bg-white min-h-screen text-black">
         <SiteNavBar />
