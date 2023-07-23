@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://thehouseofcode.ng
+
+# Sitemaps
+Sitemap: https://thehouseofcode.ng/sitemap.xml

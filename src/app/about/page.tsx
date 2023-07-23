@@ -42,7 +42,7 @@ export default function AboutPage () {
                         </AboutSection>
                         <AboutSection heading="Get In Touch" style="text-branding-blue-500">
                             <p className="text-sm text-black font-medium leading-[30px]">
-                                Ready to embark on a transformative journey of digital growth? We're thrilled to connect with you. Reach out to our team today, and let's collaborate to bring your vision to life and make an impactful mark in the digital landscape.
+                                {` Ready to embark on a transformative journey of digital growth? We're thrilled to connect with you. Reach out to our team today, and let's collaborate to bring your vision to life and make an impactful mark in the digital landscape.`}
                             </p>
                             <ButtonLink link='/inquire' label="Start a project" style="mt-5 w-[200px] text-center" />
                         </AboutSection>

@@ -1,4 +1,3 @@
-import {SiteNavBar} from "@/components/Navbar";
 import Image from 'next/image'
 
 import {ButtonLink} from "@/components/Button";
@@ -66,7 +65,7 @@ export default function Home() {
                    </ExpertiseCard>
                </div>
                <div className="flex justify-end w-full my-10">
-                   <Link href="/services" className="text-branding-orange-500  hover:opacity-70 underline font-bold text-xl" >Learn more about what we offer</Link>
+                   <Link href="#" className="text-branding-orange-500  hover:opacity-70 underline font-bold text-xl" >Learn more about what we offer</Link>
                </div>
            </div>
         </section>
@@ -128,7 +127,7 @@ export default function Home() {
                    </div>
                     <div>
                         <p className="my-5">
-                            Ready to embark on a transformative journey of digital growth and drive transformative change? We're thrilled to connect with you. Reach out to our team today, and let's collaborate to bring your vision to life and make an impactful mark in the digital landscape.
+                            {` Ready to embark on a transformative journey of digital growth and drive transformative change? We're thrilled to connect with you. Reach out to our team today, and let's collaborate to bring your vision to life and make an impactful mark in the digital landscape.`}
                         </p>
                         <ButtonLink link='/inquire' label='Schedule a call' style="w-[200px]" />
                     </div>
