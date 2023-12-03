@@ -60,14 +60,14 @@ export function ContactForm () {
                 placeholder="HSCB Bank"
             />
             <FormControl
-                value={formState.companyName}
+                value={formState.email}
                 name="email"
                 label="Email"
                 onChange={handleFormChange}
                 placeholder="mycompany@gmail.com"
             />
             <FormControl
-                value={formState.companyName}
+                value={formState.budget}
                 name="budget"
                 label="What is your budget?"
                 onChange={handleFormChange}
@@ -79,7 +79,7 @@ export function ContactForm () {
                 label="Tell us about your project/idea"
                 onChange={handleFormChange}
             />
-            <button className="bg-branding-orange-500 rounded-[20px] text-white shadow-2xl py-3 px-4" type="submit">
+            <button className="bg-branding-orange-500 rounded-[6.666px] text-white shadow-2xl py-3 px-4" type="submit">
                 Submit form
             </button>
         </form>
@@ -101,7 +101,7 @@ interface FormControlI {
 function FormControl (props: FormControlI) {
       return (
           <div className="flex w-full my-5">
-              <label className="text-black text-sm font-bold flex flex-col w-full">
+              <label className="text-accent text-sm font-bold flex flex-col w-full">
                   {props.label}
                   <input
                       type={props.type}
@@ -109,7 +109,7 @@ function FormControl (props: FormControlI) {
                       name={props.name}
                       value={props.value}
                       onChange={({target: {value, name}}) => props.onChange(name as any, value) }
-                      className="active:border-[1px] active:border-branding-blue-500 border-gray-300 mt-2 border-[1px] rounded-[5px] py-3 px-2 text-black text-base font-bold"
+                      className="border-branding-orange-500 mt-2 border-2 rounded-[6.666px] bg-transparent py-3 px-2 text-accent text-accent font-bold"
                   />
               </label>
           </div>
@@ -120,14 +120,14 @@ function FormControl (props: FormControlI) {
 function FormControlTextArea (props: FormControlI) {
     return (
         <div className="flex w-full my-5">
-            <label className="text-black text-sm font-bold flex flex-col w-full">
+            <label className="text-accent text-sm font-bold flex flex-col w-full">
                 {props.label}
                 <textarea
                     placeholder={props.placeholder}
                     name={props.name}
                     value={props.value}
                     onChange={({target: {value, name}}) => props.onChange(name as any, value) }
-                    className="active:border-[1px] active:border-branding-blue-500 border-gray-300 mt-2 border-[1px] rounded-[5px] py-3 px-2 text-black text-base font-bold"
+                    className="border-branding-orange-500 mt-2 border-2 rounded-[6.666px] bg-transparent py-3 px-2 text-accent text-accent font-bold"
                 />
             </label>
         </div>

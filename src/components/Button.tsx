@@ -4,7 +4,7 @@ import className from "classnames";
 interface BaseButtonProps {
     label: string
     children?: ReactNode
-
+    target?: string
     style?: string
 }
 
@@ -26,6 +26,6 @@ export function  Button (props: ButtonProps ) {
 
 export function ButtonLink (props: ButtonLinkProps) {
     return (
-        <Link href={props.link} className={className("bg-branding-orange-500 rounded-[20px] text-white shadow-2xl py-3 px-4", props.style)}>{props.label}</Link>
+        <Link href={props.link} target={props.target} className={className("bg-branding-orange-500 rounded-[6.666px] text-white shadow-2xl py-3 px-4", props.style)}>{props.label}</Link>
     )
 }

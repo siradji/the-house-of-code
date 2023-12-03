@@ -1,14 +1,10 @@
 import {PropsWithChildren} from "react";
 
-export function ExpertiseCard (props: PropsWithChildren<{label: string}>) {
+export function ExpertiseCard (props: PropsWithChildren<{}>) {
     return (
-        <div className="flex flex-col w-full md:w-1/2 lg:w-1/3 px-0 md:px-2">
-            <div className="rounded-[20px] shadow-2xl ">
-                {props.children}
-            </div>
-            <div className="my-4">
-                <h2 className="font-bold text-2xl text-center">{props.label}</h2>
-            </div>
+        <div className="rounded-[10.666px] p-4 shadow-2xl h-full flex flex-col justify-between w-full border-2 border-branding-orange-500">
+            {props.children}
+
         </div>
     )
 }
