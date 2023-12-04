@@ -14,7 +14,7 @@ const ProjectShowcase = () => {
         <h1 className="text-xl lg:text-4xl font-bold">Explore Our Creative Space</h1>
       </div>
         <div className="w-full">
-       <Reveal effect="fadeInLeft"  delay={0.15 * (0 + 1)}>
+       <Reveal effect="fadeInLeft" delay={0.15 * (0 + 1)} threshold={undefined} duration={undefined} transition={undefined} animate={undefined}>
             <div className="rounded-[10px] overflow-hidden flex flex-col lg:flex-row mb-10">
                 <Image
                     src={Ecommerce}
@@ -23,12 +23,12 @@ const ProjectShowcase = () => {
                 />
                 <div className="p-10 basis-[40%] w-full h-[500px] border-r-2 lg:border-l-0 border-l-2 lg:border-t-2 border-b-2 border-branding-orange-500">
                     <h3 className="text-xl font-semibold mb-2">Pfeffer & Frost</h3>
-                    <p className="text-accent mb-[2em]">Dive into Pfeffer Frost – a sleek JAMSTACK e-commerce website tailored for our German client. We've woven together the power of Strapi CMS and NextJs frontend, ensuring a seamless online shopping experience. From meticulous testing to end-to-end perfection, this site is a testament to both style and functionality. Explore a digital shopping journey where every detail has been fine-tuned for a flawless encounter.</p>
+                    <p className="text-accent mb-[2em]">Dive into Pfeffer Frost – a sleek JAMSTACK e-commerce website tailored for our German client. We&apos;ve woven together the power of Strapi CMS and NextJs frontend, ensuring a seamless online shopping experience. From meticulous testing to end-to-end perfection, this site is a testament to both style and functionality. Explore a digital shopping journey where every detail has been fine-tuned for a flawless encounter.</p>
                     <ButtonLink link='https://pfefferundfrost.de/en' label='View More' target='_blank' style="w-[150px] mt-5 text-center"/>
                 </div>
             </div>
        </Reveal>
-       <Reveal effect="fadeInLeft"  delay={0.15 * (1 + 1)}>
+       <Reveal effect="fadeInLeft" delay={0.15 * (1 + 1)} threshold={undefined} duration={undefined} transition={undefined} animate={undefined}>
         <div className="rounded-[10px] overflow-hidden flex flex-col lg:flex-row mb-10">
             <Image
                 src={Emerge}
@@ -42,7 +42,7 @@ const ProjectShowcase = () => {
             </div>
         </div>
        </Reveal>
-       <Reveal effect="fadeInLeft"  delay={0.15 * (2 + 1)}>
+       <Reveal effect="fadeInLeft" delay={0.15 * (2 + 1)} threshold={undefined} duration={undefined} transition={undefined} animate={undefined}>
             <div className="rounded-[10px] overflow-hidden flex flex-col lg:flex-row mb-10">
                 <Image
                     src={Portfolio}
@@ -51,12 +51,12 @@ const ProjectShowcase = () => {
                 />
                 <div className="p-10 basis-[40%] w-full h-[500px] border-r-2 lg:border-l-0 border-l-2 lg:border-t-2 border-b-2 border-branding-orange-500">
                     <h3 className="text-xl font-semibold mb-2">BCMS Starters Project</h3>
-                    <p className="text-accent mb-[2em]">Meet BCMS Starters – our cross-platform project designed for clients running a CMS. With precision in mind, we've crafted seven starters on both GatsbyJS and NextJs. This dual approach ensures the perfect kickstart for your users, offering a seamless and tailored experience. Elevate your CMS journey with BCMS Starters, where versatility meets user-friendly beginnings.</p>
+                    <p className="text-accent mb-[2em]">Meet BCMS Starters – our cross-platform project designed for clients running a CMS. With precision in mind, we&apos;ve crafted seven starters on both GatsbyJS and NextJs. This dual approach ensures the perfect kickstart for your users, offering a seamless and tailored experience. Elevate your CMS journey with BCMS Starters, where versatility meets user-friendly beginnings.</p>
                     <ButtonLink link='https://github.com/bcms/starters#bcms-starters' label='View More' target='_blank' style="w-[150px] mt-5 text-center"/> 
                 </div>
             </div>
        </Reveal>
-       <Reveal effect="fadeInLeft"  delay={0.15 * (3 + 1)}>
+       <Reveal effect="fadeInLeft" delay={0.15 * (3 + 1)} threshold={undefined} duration={undefined} transition={undefined} animate={undefined}>
             <div className="rounded-[10px] overflow-hidden flex flex-col lg:flex-row mb-10">
                 <Image
                     src={Milkyway}
@@ -65,7 +65,7 @@ const ProjectShowcase = () => {
                 />
                 <div className="p-10 basis-[40%] w-full h-[500px] border-r-2 lg:border-l-0 border-l-2 lg:border-t-2 border-b-2 border-branding-orange-500">
                     <h3 className="text-xl font-semibold mb-2">Milkyway Football Team</h3>
-                    <p className="text-accent mb-[2em]">Score big with Milkyway Football Team's website – a stellar creation for our football club owner client. Powered by JAMSTACK architecture, with Contentful as the CMS and NextJs as the frontend, this site goes beyond the goalpost. Now, our client effortlessly manages player information, stats, blogs, and more. Join the winning team with Milkyway Football, where we redefine the game both on and off the field.</p>
+                    <p className="text-accent mb-[2em]">Score big with Milkyway Football Team&apos;s website – a stellar creation for our football club owner client. Powered by JAMSTACK architecture, with Contentful as the CMS and NextJs as the frontend, this site goes beyond the goalpost. Now, our client effortlessly manages player information, stats, blogs, and more. Join the winning team with Milkyway Football, where we redefine the game both on and off the field.</p>
                     <ButtonLink link='https://www.milkywayfootballacademy.com/' label='View More' target='_blank' style="w-[150px] mt-5 text-center"/>
                 </div>
             </div>
