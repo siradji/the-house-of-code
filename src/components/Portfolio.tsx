@@ -23,7 +23,7 @@ const ProjectShowcase = () => {
                 />
                 <div className="p-10 basis-[40%] w-full h-[500px] border-r-2 lg:border-l-0 border-l-2 lg:border-t-2 border-b-2 border-branding-orange-500">
                     <h3 className="text-xl font-semibold mb-2">Pfeffer & Frost</h3>
-                    <p className="text-accent mb-[2em]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, tempore quos ipsum ipsa nostrum obcaecati impedit ab rem quaerat voluptate omnis nobis maiores harum tempora? Cum, inventore. Obcaecati, beatae vitae.</p>
+                    <p className="text-accent mb-[2em]">Dive into Pfeffer Frost – a sleek JAMSTACK e-commerce website tailored for our German client. We've woven together the power of Strapi CMS and NextJs frontend, ensuring a seamless online shopping experience. From meticulous testing to end-to-end perfection, this site is a testament to both style and functionality. Explore a digital shopping journey where every detail has been fine-tuned for a flawless encounter.</p>
                     <ButtonLink link='https://pfefferundfrost.de/en' label='View More' target='_blank' style="w-[150px] mt-5 text-center"/>
                 </div>
             </div>
@@ -37,7 +37,7 @@ const ProjectShowcase = () => {
             />
             <div className="p-10 basis-[40%] w-full h-[500px] border-r-2 lg:border-l-0 border-l-2 lg:border-t-2 border-b-2 border-branding-orange-500">
                 <h3 className="text-xl font-semibold mb-2">Emerge Digital</h3>
-                <p className="text-accent mb-[2em]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, tempore quos ipsum ipsa nostrum obcaecati impedit ab rem quaerat voluptate omnis nobis maiores harum tempora? Cum, inventore. Obcaecati, beatae vitae.</p>
+                <p className="text-accent mb-[2em]">Introducing Emerge Digital – a sassy marketing solution tailored for our esteemed client in Dubai. Crafted with JAMSTACK prowess, this platform seamlessly pulls content from WordPress and WooCommerce, ensuring a dynamic showcase of services and subscription packages. Our touch extends beyond aesthetics, enhancing security, accessibility, and speed. Empower your online presence with Emerge Digital, where style meets substance, and your services take center stage.</p>
                 <ButtonLink link='https://h4wj0ppx8l7fo45zmmkk4qzhc.js.wpenginepowered.com/' label='View More' target='_blank' style="w-[150px] mt-5 text-center"/>
             </div>
         </div>
@@ -51,7 +51,7 @@ const ProjectShowcase = () => {
                 />
                 <div className="p-10 basis-[40%] w-full h-[500px] border-r-2 lg:border-l-0 border-l-2 lg:border-t-2 border-b-2 border-branding-orange-500">
                     <h3 className="text-xl font-semibold mb-2">BCMS Starters Project</h3>
-                    <p className="text-accent mb-[2em]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, tempore quos ipsum ipsa nostrum obcaecati impedit ab rem quaerat voluptate omnis nobis maiores harum tempora? Cum, inventore. Obcaecati, beatae vitae.</p>
+                    <p className="text-accent mb-[2em]">Meet BCMS Starters – our cross-platform project designed for clients running a CMS. With precision in mind, we've crafted seven starters on both GatsbyJS and NextJs. This dual approach ensures the perfect kickstart for your users, offering a seamless and tailored experience. Elevate your CMS journey with BCMS Starters, where versatility meets user-friendly beginnings.</p>
                     <ButtonLink link='https://github.com/bcms/starters#bcms-starters' label='View More' target='_blank' style="w-[150px] mt-5 text-center"/> 
                 </div>
             </div>
@@ -65,7 +65,7 @@ const ProjectShowcase = () => {
                 />
                 <div className="p-10 basis-[40%] w-full h-[500px] border-r-2 lg:border-l-0 border-l-2 lg:border-t-2 border-b-2 border-branding-orange-500">
                     <h3 className="text-xl font-semibold mb-2">Milkyway Football Team</h3>
-                    <p className="text-accent mb-[2em]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, tempore quos ipsum ipsa nostrum obcaecati impedit ab rem quaerat voluptate omnis nobis maiores harum tempora? Cum, inventore. Obcaecati, beatae vitae.</p>
+                    <p className="text-accent mb-[2em]">Score big with Milkyway Football Team's website – a stellar creation for our football club owner client. Powered by JAMSTACK architecture, with Contentful as the CMS and NextJs as the frontend, this site goes beyond the goalpost. Now, our client effortlessly manages player information, stats, blogs, and more. Join the winning team with Milkyway Football, where we redefine the game both on and off the field.</p>
                     <ButtonLink link='https://www.milkywayfootballacademy.com/' label='View More' target='_blank' style="w-[150px] mt-5 text-center"/>
                 </div>
             </div>
