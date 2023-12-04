@@ -38,7 +38,7 @@ export default function RootLayout({
     }}();`}
     </Script>
       <body className={inter.className + ' bg-white'}>
-      <main className="bg-white min-h-screen text-black">
+      <main className="min-h-screen text-white">
         <SiteNavBar />
         {children}
         <SiteFooter />

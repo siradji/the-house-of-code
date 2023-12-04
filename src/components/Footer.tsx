@@ -50,7 +50,7 @@ const FooterSiteMap = {
 }
 export function SiteFooter () {
     return (
-        <footer className="px-12 text-white lg:px-20 xl:px-32 py-10 bg-branding-blue-500">
+        <footer className="px-8 text-white lg:px-20 xl:px-32 py-10 bg-branding-blue-500">
             <div className="flex justify-between flex-col lg:flex-row w-full">
                 <div className="flex flex-col h-full w-full flex-shrink mb-5 lg:mb-0">
                     <div className="flex flex-col">
@@ -97,7 +97,7 @@ interface FooterLinkProp {
 }
 function FooterLink (props: FooterLinkProp) {
     return (
-        <div className="py-3">
+        <div className="py-2">
             <Link className={classNames("font-bold", !props.contact && 'capitalize')} href={props.href}>{props.label}</Link>
         </div>
     )
@@ -108,7 +108,6 @@ function FooterLinkWrapper ({heading, style, children}: PropsWithChildren<{headi
         <div className={classNames("flex flex-col", style)}>
             <div className="flex flex-col w-full">
                 <h1 className="capitalize font-bold text-2xl">{heading}</h1>
-                <div className="bg-branding-orange-500 w-[50px] h-[10px] rounded" />
             </div>
 
             <div className="mt-2">
